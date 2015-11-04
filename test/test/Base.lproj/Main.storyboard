@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mr. Potato Head" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgx-HE-XdH">
+                                <rect key="frame" x="0.0" y="20" width="600" height="50"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="KJ2-kj-UG0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="m9M-tq-PNJ">
+                                <rect key="frame" x="0.0" y="78" width="600" height="525"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fpi-Ve-M3r" userLabel="Toy">
+                                        <rect key="frame" x="117" y="0.0" width="367" height="395"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="body" translatesAutoresizingMaskIntoConstraints="NO" id="Z5G-6H-75E">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arms" translatesAutoresizingMaskIntoConstraints="NO" id="aKg-aO-fdK">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ears" translatesAutoresizingMaskIntoConstraints="NO" id="Z1f-69-wge">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyebrows" translatesAutoresizingMaskIntoConstraints="NO" id="Mhn-zu-NnJ">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyes" translatesAutoresizingMaskIntoConstraints="NO" id="Vcg-GD-PIq">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="glasses" translatesAutoresizingMaskIntoConstraints="NO" id="dkJ-9u-V0P">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hat" translatesAutoresizingMaskIntoConstraints="NO" id="LQo-Zg-Yy6">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mouth" translatesAutoresizingMaskIntoConstraints="NO" id="XLw-lD-l4Z">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mustache" translatesAutoresizingMaskIntoConstraints="NO" id="5vf-hd-RX5">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nose" translatesAutoresizingMaskIntoConstraints="NO" id="pIA-Hw-n17">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
+                                                <animations/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="88Q-dy-1c6">
+                                                <rect key="frame" x="0.0" y="0.0" width="367" height="395"/>
+                                                <animations/>
+                                            </imageView>
+                                        </subviews>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstItem="Z1f-69-wge" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="2e4-CO-hbl"/>
+                                            <constraint firstItem="aKg-aO-fdK" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="E6O-9u-62U"/>
+                                            <constraint firstItem="5vf-hd-RX5" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="FNj-hr-fih"/>
+                                            <constraint firstItem="dkJ-9u-V0P" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="Huz-EW-48v"/>
+                                            <constraint firstItem="88Q-dy-1c6" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="NJg-xI-JOn"/>
+                                            <constraint firstItem="Z5G-6H-75E" firstAttribute="leading" secondItem="Fpi-Ve-M3r" secondAttribute="leading" id="SlG-Kl-eLe"/>
+                                            <constraint firstItem="XLw-lD-l4Z" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="iEj-wo-ysD"/>
+                                            <constraint firstItem="Vcg-GD-PIq" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="k5r-uE-55G"/>
+                                            <constraint firstItem="Mhn-zu-NnJ" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="kgp-W7-lI6"/>
+                                            <constraint firstItem="pIA-Hw-n17" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="pZe-Uf-MuT"/>
+                                            <constraint firstItem="LQo-Zg-Yy6" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="stt-J3-rO2"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wiJ-1d-hZZ" userLabel="Label">
+                                        <rect key="frame" x="143" y="400" width="315" height="20"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check the bodypart that you want to see:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRA-HH-k3r">
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="20"/>
+                                                <animations/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="sgZ-Nu-IEk"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <animations/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1E1-lP-sdn" userLabel="Boxes">
+                                        <rect key="frame" x="188" y="425" width="224" height="100"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Xhk-Yk-5Kt">
+                                                <rect key="frame" x="0.0" y="0.0" width="109" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXR-ac-ach">
+                                                        <rect key="frame" x="0.0" y="0.0" width="109" height="18"/>
+                                                        <animations/>
+                                                        <state key="normal" title="Arms" image="UncheckedBox">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="armsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lgx-D7-R7h"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVu-9I-hMX">
+                                                        <rect key="frame" x="0.0" y="20" width="109" height="19"/>
+                                                        <animations/>
+                                                        <state key="normal" title="Ears" image="UncheckedBox">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="earsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SL2-uX-0TE"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2e-v9-BZC">
+                                                        <rect key="frame" x="0.0" y="41" width="109" height="18"/>
+                                                        <animations/>
+                                                        <state key="normal" title="Eyebrows" image="UncheckedBox">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="eyebrowsAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H32-40-55X"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8D-QZ-rh6">
+                                                        <rect key="frame" x="0.0" y="61" width="109" height="19"/>
+                                                        <animations/>
+                                                        <state key="normal" title="Eyes" image="UncheckedBox">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="eyesAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sOy-Te-CIz"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VU7-sg-xew">
+                                                        <rect key="frame" x="0.0" y="82" width="109" height="18"/>
+                                                        <animations/>
+                                                        <state key="normal" title="Glasses" image="UncheckedBox">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="glassesAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KPz-QL-EoO"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <animations/>
+                                                <variation key="heightClass=compact" axis="horizontal"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="c28-60-fIi">
+                                                <rect key="frame" x="114" y="0.0" width="110" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eve-lu-vGM">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="18"/>
+                                                        <animations/>
+                                                        <state key="normal" title="Hat" image="UncheckedBox">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="hatAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7AC-KP-VOC"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gG-M7-ZxM">
+                                                        <rect key="frame" x="0.0" y="20" width="110" height="19"/>
+                                                        <animations/>
+                                                        <state key="normal" title="Mouth" image="UncheckedBox">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="mouthAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OL8-Be-KUR"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zB-hs-1UT">
+                                                        <rect key="frame" x="0.0" y="41" width="110" height="18"/>
+                                                        <animations/>
+                                                        <state key="normal" title="Mustache" image="UncheckedBox">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="mustacheAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aKO-pu-gwT"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwb-Pt-9b6">
+                                                        <rect key="frame" x="0.0" y="61" width="110" height="19"/>
+                                                        <animations/>
+                                                        <state key="normal" title="Nose" image="UncheckedBox">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="noseAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qxi-6G-904"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="si2-CT-doB">
+                                                        <rect key="frame" x="0.0" y="82" width="110" height="18"/>
+                                                        <animations/>
+                                                        <state key="normal" title="Shoes" image="UncheckedBox">
+                                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="shoesAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CA6-4i-71p"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <animations/>
+                                                <variation key="heightClass=compact" axis="horizontal"/>
+                                            </stackView>
+                                        </subviews>
+                                        <animations/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Thn-QL-jIV"/>
+                                        </constraints>
+                                        <variation key="heightClass=compact" axis="vertical"/>
+                                    </stackView>
+                                </subviews>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstItem="1E1-lP-sdn" firstAttribute="top" relation="greaterThanOrEqual" secondItem="wiJ-1d-hZZ" secondAttribute="bottom" id="Gt5-gc-NIP"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="m9M-tq-PNJ" secondAttribute="trailing" id="DQF-0l-5gn"/>
+                            <constraint firstAttribute="trailing" secondItem="bgx-HE-XdH" secondAttribute="trailing" id="HIg-To-SNG"/>
+                            <constraint firstItem="m9M-tq-PNJ" firstAttribute="top" secondItem="bgx-HE-XdH" secondAttribute="bottom" id="MW7-ks-iNf"/>
+                            <constraint firstItem="bgx-HE-XdH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="RhD-7P-7e8"/>
+                            <constraint firstItem="m9M-tq-PNJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="mZ6-fZ-qQa"/>
+                            <constraint firstItem="bgx-HE-XdH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="n6x-Yn-DDi"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="m9M-tq-PNJ" secondAttribute="bottom" constant="5" id="yPp-LE-tFZ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="armsButton" destination="pXR-ac-ach" id="lWP-fw-4LG"/>
+                        <outlet property="armsImg" destination="aKg-aO-fdK" id="GWP-YH-aeM"/>
+                        <outlet property="earsButton" destination="vVu-9I-hMX" id="hrD-kB-Whw"/>
+                        <outlet property="earsImg" destination="Z1f-69-wge" id="IWu-mN-S82"/>
+                        <outlet property="eyebrowsButton" destination="v2e-v9-BZC" id="Ti1-NU-ZMG"/>
+                        <outlet property="eyebrowsImg" destination="Mhn-zu-NnJ" id="PnJ-Lz-4ML"/>
+                        <outlet property="eyesButton" destination="z8D-QZ-rh6" id="ou7-rS-Vzb"/>
+                        <outlet property="eyesImg" destination="Vcg-GD-PIq" id="3Aa-67-D6i"/>
+                        <outlet property="glassesButton" destination="VU7-sg-xew" id="Xnm-yf-9Hn"/>
+                        <outlet property="glassesImg" destination="dkJ-9u-V0P" id="obv-5O-Zqq"/>
+                        <outlet property="hatButton" destination="Eve-lu-vGM" id="1NY-bo-SMY"/>
+                        <outlet property="hatImg" destination="LQo-Zg-Yy6" id="6wf-lW-cfc"/>
+                        <outlet property="mouthButton" destination="4gG-M7-ZxM" id="6Ix-j9-v70"/>
+                        <outlet property="mouthImg" destination="XLw-lD-l4Z" id="3Vq-N5-SqP"/>
+                        <outlet property="mustacheButton" destination="4zB-hs-1UT" id="jPN-c9-fYv"/>
+                        <outlet property="mustacheImg" destination="5vf-hd-RX5" id="EzJ-kp-om0"/>
+                        <outlet property="noseButton" destination="Fwb-Pt-9b6" id="xTn-pJ-NpJ"/>
+                        <outlet property="noseImg" destination="pIA-Hw-n17" id="JMf-ki-pWM"/>
+                        <outlet property="shoesButton" destination="si2-CT-doB" id="ArS-H2-Afg"/>
+                        <outlet property="shoesImg" destination="88Q-dy-1c6" id="ZQ6-1W-KBd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="327" y="452"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="UncheckedBox" width="30" height="30"/>
+        <image name="arms" width="367" height="428"/>
+        <image name="body" width="367" height="428"/>
+        <image name="ears" width="367" height="428"/>
+        <image name="eyebrows" width="367" height="428"/>
+        <image name="eyes" width="367" height="428"/>
+        <image name="glasses" width="367" height="428"/>
+        <image name="hat" width="367" height="428"/>
+        <image name="mouth" width="367" height="428"/>
+        <image name="mustache" width="367" height="428"/>
+        <image name="nose" width="367" height="428"/>
+        <image name="shoes" width="367" height="428"/>
+    </resources>
+</document>
