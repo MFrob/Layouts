@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -18,83 +18,123 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mr. Potato Head" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgx-HE-XdH">
-                                <rect key="frame" x="0.0" y="20" width="600" height="50"/>
+                                <rect key="frame" x="0.0" y="20" width="600" height="40"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="KJ2-kj-UG0"/>
+                                    <constraint firstAttribute="height" constant="40" id="KJ2-kj-UG0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="m9M-tq-PNJ">
-                                <rect key="frame" x="0.0" y="78" width="600" height="525"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="m9M-tq-PNJ" userLabel="Everything">
+                                <rect key="frame" x="0.0" y="65" width="600" height="535"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fpi-Ve-M3r" userLabel="Toy">
-                                        <rect key="frame" x="117" y="0.0" width="367" height="395"/>
+                                        <rect key="frame" x="117" y="0.0" width="367" height="375"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="body" translatesAutoresizingMaskIntoConstraints="NO" id="Z5G-6H-75E">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
+                                            <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="iBE-6f-E6J">
+                                                <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arms" translatesAutoresizingMaskIntoConstraints="NO" id="Sos-Ah-sWP">
+                                                        <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                        <animations/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="body" translatesAutoresizingMaskIntoConstraints="NO" id="HYS-ZA-4vt">
+                                                        <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                        <animations/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ears" translatesAutoresizingMaskIntoConstraints="NO" id="Tpo-wn-e8K">
+                                                        <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                        <animations/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyebrows" translatesAutoresizingMaskIntoConstraints="NO" id="Um5-M7-pfU">
+                                                        <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                        <animations/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mouth" translatesAutoresizingMaskIntoConstraints="NO" id="4E5-kO-wDK">
+                                                        <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                        <animations/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyes" translatesAutoresizingMaskIntoConstraints="NO" id="uff-ZC-H2A">
+                                                        <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                        <animations/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="glasses" translatesAutoresizingMaskIntoConstraints="NO" id="Wee-Hf-L68">
+                                                        <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                        <animations/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hat" translatesAutoresizingMaskIntoConstraints="NO" id="FA8-DW-I8a">
+                                                        <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                        <animations/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mustache" translatesAutoresizingMaskIntoConstraints="NO" id="edO-Ml-WvR">
+                                                        <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                        <animations/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nose" translatesAutoresizingMaskIntoConstraints="NO" id="NFu-5L-4jJ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                        <animations/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="HJ5-Bv-gEp">
+                                                        <rect key="frame" x="0.0" y="0.0" width="367" height="375"/>
+                                                        <animations/>
+                                                    </imageView>
+                                                </subviews>
                                                 <animations/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arms" translatesAutoresizingMaskIntoConstraints="NO" id="aKg-aO-fdK">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
-                                                <animations/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ears" translatesAutoresizingMaskIntoConstraints="NO" id="Z1f-69-wge">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
-                                                <animations/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyebrows" translatesAutoresizingMaskIntoConstraints="NO" id="Mhn-zu-NnJ">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
-                                                <animations/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eyes" translatesAutoresizingMaskIntoConstraints="NO" id="Vcg-GD-PIq">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
-                                                <animations/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="glasses" translatesAutoresizingMaskIntoConstraints="NO" id="dkJ-9u-V0P">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
-                                                <animations/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hat" translatesAutoresizingMaskIntoConstraints="NO" id="LQo-Zg-Yy6">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
-                                                <animations/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mouth" translatesAutoresizingMaskIntoConstraints="NO" id="XLw-lD-l4Z">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
-                                                <animations/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mustache" translatesAutoresizingMaskIntoConstraints="NO" id="5vf-hd-RX5">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
-                                                <animations/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nose" translatesAutoresizingMaskIntoConstraints="NO" id="pIA-Hw-n17">
-                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="395"/>
-                                                <animations/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="88Q-dy-1c6">
-                                                <rect key="frame" x="0.0" y="0.0" width="367" height="395"/>
-                                                <animations/>
-                                            </imageView>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstItem="Wee-Hf-L68" firstAttribute="leading" secondItem="iBE-6f-E6J" secondAttribute="leading" id="1uW-QX-uHH"/>
+                                                    <constraint firstItem="Wee-Hf-L68" firstAttribute="top" secondItem="iBE-6f-E6J" secondAttribute="top" id="2EF-F4-mo2"/>
+                                                    <constraint firstItem="FA8-DW-I8a" firstAttribute="leading" secondItem="iBE-6f-E6J" secondAttribute="leading" id="2md-yE-7Dp"/>
+                                                    <constraint firstAttribute="bottom" secondItem="HJ5-Bv-gEp" secondAttribute="bottom" id="6W1-Rh-DAa"/>
+                                                    <constraint firstAttribute="bottom" secondItem="edO-Ml-WvR" secondAttribute="bottom" id="8MX-vb-2ay"/>
+                                                    <constraint firstAttribute="trailing" secondItem="HJ5-Bv-gEp" secondAttribute="trailing" id="BcR-d0-wKK"/>
+                                                    <constraint firstAttribute="bottom" secondItem="4E5-kO-wDK" secondAttribute="bottom" id="FZ6-M8-oCJ"/>
+                                                    <constraint firstItem="FA8-DW-I8a" firstAttribute="top" secondItem="iBE-6f-E6J" secondAttribute="top" id="H0x-td-OW5"/>
+                                                    <constraint firstAttribute="bottom" secondItem="HYS-ZA-4vt" secondAttribute="bottom" id="J1m-jJ-3Gd"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Um5-M7-pfU" secondAttribute="trailing" id="Ld2-OT-gMr"/>
+                                                    <constraint firstItem="Tpo-wn-e8K" firstAttribute="top" secondItem="iBE-6f-E6J" secondAttribute="top" id="Oyy-QR-puW"/>
+                                                    <constraint firstItem="edO-Ml-WvR" firstAttribute="top" secondItem="iBE-6f-E6J" secondAttribute="top" id="P7b-j4-wp2"/>
+                                                    <constraint firstAttribute="trailing" secondItem="uff-ZC-H2A" secondAttribute="trailing" id="Qhw-s5-7KP"/>
+                                                    <constraint firstItem="uff-ZC-H2A" firstAttribute="leading" secondItem="iBE-6f-E6J" secondAttribute="leading" id="QwF-kP-Jzc"/>
+                                                    <constraint firstAttribute="trailing" secondItem="4E5-kO-wDK" secondAttribute="trailing" id="Sfs-7e-0lb"/>
+                                                    <constraint firstAttribute="trailing" secondItem="HYS-ZA-4vt" secondAttribute="trailing" id="Tyc-4B-W3H"/>
+                                                    <constraint firstAttribute="bottom" secondItem="uff-ZC-H2A" secondAttribute="bottom" id="XIG-3z-Z2O"/>
+                                                    <constraint firstItem="4E5-kO-wDK" firstAttribute="top" secondItem="iBE-6f-E6J" secondAttribute="top" id="YXR-sa-Coh"/>
+                                                    <constraint firstItem="edO-Ml-WvR" firstAttribute="leading" secondItem="iBE-6f-E6J" secondAttribute="leading" id="Yvl-iE-rAx"/>
+                                                    <constraint firstItem="Tpo-wn-e8K" firstAttribute="leading" secondItem="iBE-6f-E6J" secondAttribute="leading" id="azi-RY-8u5"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Sos-Ah-sWP" secondAttribute="trailing" id="bUs-02-DpU"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Tpo-wn-e8K" secondAttribute="trailing" id="cw0-2y-C82"/>
+                                                    <constraint firstItem="HJ5-Bv-gEp" firstAttribute="top" secondItem="iBE-6f-E6J" secondAttribute="top" id="dHj-xE-dJD"/>
+                                                    <constraint firstItem="HYS-ZA-4vt" firstAttribute="leading" secondItem="iBE-6f-E6J" secondAttribute="leading" id="dVt-c3-YVt"/>
+                                                    <constraint firstAttribute="bottom" secondItem="NFu-5L-4jJ" secondAttribute="bottom" id="gdZ-gE-Bcd"/>
+                                                    <constraint firstItem="uff-ZC-H2A" firstAttribute="top" secondItem="iBE-6f-E6J" secondAttribute="top" id="i79-Qw-lcc"/>
+                                                    <constraint firstAttribute="trailing" secondItem="edO-Ml-WvR" secondAttribute="trailing" id="jM1-th-m7b"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Sos-Ah-sWP" secondAttribute="bottom" id="jTg-uO-wH1"/>
+                                                    <constraint firstAttribute="trailing" secondItem="FA8-DW-I8a" secondAttribute="trailing" id="kha-v9-9nn"/>
+                                                    <constraint firstItem="HJ5-Bv-gEp" firstAttribute="leading" secondItem="iBE-6f-E6J" secondAttribute="leading" id="koI-4E-ZyR"/>
+                                                    <constraint firstItem="4E5-kO-wDK" firstAttribute="leading" secondItem="iBE-6f-E6J" secondAttribute="leading" id="nHj-Hx-erg"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Wee-Hf-L68" secondAttribute="trailing" id="nhC-nE-zkW"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Tpo-wn-e8K" secondAttribute="bottom" id="p1I-AQ-AiC"/>
+                                                    <constraint firstAttribute="bottom" secondItem="FA8-DW-I8a" secondAttribute="bottom" id="pEp-By-K7a"/>
+                                                    <constraint firstItem="Um5-M7-pfU" firstAttribute="leading" secondItem="iBE-6f-E6J" secondAttribute="leading" id="q6l-Om-sbi"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Um5-M7-pfU" secondAttribute="bottom" id="qLP-KE-84a"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Wee-Hf-L68" secondAttribute="bottom" id="sGt-x9-1AY"/>
+                                                    <constraint firstItem="Sos-Ah-sWP" firstAttribute="leading" secondItem="iBE-6f-E6J" secondAttribute="leading" id="sha-pU-XuY"/>
+                                                    <constraint firstItem="Sos-Ah-sWP" firstAttribute="top" secondItem="iBE-6f-E6J" secondAttribute="top" id="ska-eK-vuW"/>
+                                                    <constraint firstItem="NFu-5L-4jJ" firstAttribute="leading" secondItem="iBE-6f-E6J" secondAttribute="leading" id="tQj-rt-U9M"/>
+                                                    <constraint firstItem="Um5-M7-pfU" firstAttribute="top" secondItem="iBE-6f-E6J" secondAttribute="top" id="u8N-y0-mZZ"/>
+                                                    <constraint firstItem="HYS-ZA-4vt" firstAttribute="top" secondItem="iBE-6f-E6J" secondAttribute="top" id="unS-8y-00c"/>
+                                                    <constraint firstAttribute="trailing" secondItem="NFu-5L-4jJ" secondAttribute="trailing" id="ylt-mU-ZsU"/>
+                                                    <constraint firstItem="NFu-5L-4jJ" firstAttribute="top" secondItem="iBE-6f-E6J" secondAttribute="top" id="yw0-Ov-BIk"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <animations/>
-                                        <constraints>
-                                            <constraint firstItem="Z1f-69-wge" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="2e4-CO-hbl"/>
-                                            <constraint firstItem="aKg-aO-fdK" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="E6O-9u-62U"/>
-                                            <constraint firstItem="5vf-hd-RX5" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="FNj-hr-fih"/>
-                                            <constraint firstItem="dkJ-9u-V0P" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="Huz-EW-48v"/>
-                                            <constraint firstItem="88Q-dy-1c6" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="NJg-xI-JOn"/>
-                                            <constraint firstItem="Z5G-6H-75E" firstAttribute="leading" secondItem="Fpi-Ve-M3r" secondAttribute="leading" id="SlG-Kl-eLe"/>
-                                            <constraint firstItem="XLw-lD-l4Z" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="iEj-wo-ysD"/>
-                                            <constraint firstItem="Vcg-GD-PIq" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="k5r-uE-55G"/>
-                                            <constraint firstItem="Mhn-zu-NnJ" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="kgp-W7-lI6"/>
-                                            <constraint firstItem="pIA-Hw-n17" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="pZe-Uf-MuT"/>
-                                            <constraint firstItem="LQo-Zg-Yy6" firstAttribute="leading" secondItem="Z5G-6H-75E" secondAttribute="leading" id="stt-J3-rO2"/>
-                                        </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wiJ-1d-hZZ" userLabel="Label">
-                                        <rect key="frame" x="143" y="400" width="315" height="20"/>
+                                        <rect key="frame" x="143" y="380" width="315" height="20"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check the bodypart that you want to see:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRA-HH-k3r">
                                                 <rect key="frame" x="0.0" y="0.0" width="315" height="20"/>
@@ -109,14 +149,14 @@
                                         </subviews>
                                         <animations/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1E1-lP-sdn" userLabel="Boxes">
-                                        <rect key="frame" x="188" y="425" width="224" height="100"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1E1-lP-sdn" userLabel="Boxes">
+                                        <rect key="frame" x="188" y="405" width="224" height="130"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="Xhk-Yk-5Kt">
-                                                <rect key="frame" x="0.0" y="0.0" width="109" height="100"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="109" height="130"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pXR-ac-ach">
-                                                        <rect key="frame" x="0.0" y="0.0" width="109" height="18"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="109" height="24"/>
                                                         <animations/>
                                                         <state key="normal" title="Arms" image="UncheckedBox">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -126,7 +166,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vVu-9I-hMX">
-                                                        <rect key="frame" x="0.0" y="20" width="109" height="19"/>
+                                                        <rect key="frame" x="0.0" y="26" width="109" height="25"/>
                                                         <animations/>
                                                         <state key="normal" title="Ears" image="UncheckedBox">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -136,7 +176,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v2e-v9-BZC">
-                                                        <rect key="frame" x="0.0" y="41" width="109" height="18"/>
+                                                        <rect key="frame" x="0.0" y="53" width="109" height="24"/>
                                                         <animations/>
                                                         <state key="normal" title="Eyebrows" image="UncheckedBox">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -146,7 +186,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8D-QZ-rh6">
-                                                        <rect key="frame" x="0.0" y="61" width="109" height="19"/>
+                                                        <rect key="frame" x="0.0" y="79" width="109" height="25"/>
                                                         <animations/>
                                                         <state key="normal" title="Eyes" image="UncheckedBox">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -156,7 +196,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VU7-sg-xew">
-                                                        <rect key="frame" x="0.0" y="82" width="109" height="18"/>
+                                                        <rect key="frame" x="0.0" y="106" width="109" height="24"/>
                                                         <animations/>
                                                         <state key="normal" title="Glasses" image="UncheckedBox">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -169,11 +209,11 @@
                                                 <animations/>
                                                 <variation key="heightClass=compact" axis="horizontal"/>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="c28-60-fIi">
-                                                <rect key="frame" x="114" y="0.0" width="110" height="100"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="c28-60-fIi">
+                                                <rect key="frame" x="114" y="0.0" width="110" height="130"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eve-lu-vGM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="18"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="24"/>
                                                         <animations/>
                                                         <state key="normal" title="Hat" image="UncheckedBox">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -183,7 +223,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4gG-M7-ZxM">
-                                                        <rect key="frame" x="0.0" y="20" width="110" height="19"/>
+                                                        <rect key="frame" x="0.0" y="26" width="110" height="25"/>
                                                         <animations/>
                                                         <state key="normal" title="Mouth" image="UncheckedBox">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -193,7 +233,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4zB-hs-1UT">
-                                                        <rect key="frame" x="0.0" y="41" width="110" height="18"/>
+                                                        <rect key="frame" x="0.0" y="53" width="110" height="24"/>
                                                         <animations/>
                                                         <state key="normal" title="Mustache" image="UncheckedBox">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -203,7 +243,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fwb-Pt-9b6">
-                                                        <rect key="frame" x="0.0" y="61" width="110" height="19"/>
+                                                        <rect key="frame" x="0.0" y="79" width="110" height="25"/>
                                                         <animations/>
                                                         <state key="normal" title="Nose" image="UncheckedBox">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -213,7 +253,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="si2-CT-doB">
-                                                        <rect key="frame" x="0.0" y="82" width="110" height="18"/>
+                                                        <rect key="frame" x="0.0" y="106" width="110" height="24"/>
                                                         <animations/>
                                                         <state key="normal" title="Shoes" image="UncheckedBox">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -229,7 +269,7 @@
                                         </subviews>
                                         <animations/>
                                         <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Thn-QL-jIV"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="130" id="Thn-QL-jIV"/>
                                         </constraints>
                                         <variation key="heightClass=compact" axis="vertical"/>
                                     </stackView>
@@ -254,25 +294,25 @@
                     </view>
                     <connections>
                         <outlet property="armsButton" destination="pXR-ac-ach" id="lWP-fw-4LG"/>
-                        <outlet property="armsImg" destination="aKg-aO-fdK" id="GWP-YH-aeM"/>
+                        <outlet property="armsImg" destination="Sos-Ah-sWP" id="wFp-hy-dmX"/>
                         <outlet property="earsButton" destination="vVu-9I-hMX" id="hrD-kB-Whw"/>
-                        <outlet property="earsImg" destination="Z1f-69-wge" id="IWu-mN-S82"/>
+                        <outlet property="earsImg" destination="Tpo-wn-e8K" id="82u-R3-QAN"/>
                         <outlet property="eyebrowsButton" destination="v2e-v9-BZC" id="Ti1-NU-ZMG"/>
-                        <outlet property="eyebrowsImg" destination="Mhn-zu-NnJ" id="PnJ-Lz-4ML"/>
+                        <outlet property="eyebrowsImg" destination="Um5-M7-pfU" id="NiL-za-XwK"/>
                         <outlet property="eyesButton" destination="z8D-QZ-rh6" id="ou7-rS-Vzb"/>
-                        <outlet property="eyesImg" destination="Vcg-GD-PIq" id="3Aa-67-D6i"/>
+                        <outlet property="eyesImg" destination="uff-ZC-H2A" id="QJb-Mg-sib"/>
                         <outlet property="glassesButton" destination="VU7-sg-xew" id="Xnm-yf-9Hn"/>
-                        <outlet property="glassesImg" destination="dkJ-9u-V0P" id="obv-5O-Zqq"/>
+                        <outlet property="glassesImg" destination="Wee-Hf-L68" id="mm8-6J-AFa"/>
                         <outlet property="hatButton" destination="Eve-lu-vGM" id="1NY-bo-SMY"/>
-                        <outlet property="hatImg" destination="LQo-Zg-Yy6" id="6wf-lW-cfc"/>
+                        <outlet property="hatImg" destination="FA8-DW-I8a" id="69f-xK-I8W"/>
                         <outlet property="mouthButton" destination="4gG-M7-ZxM" id="6Ix-j9-v70"/>
-                        <outlet property="mouthImg" destination="XLw-lD-l4Z" id="3Vq-N5-SqP"/>
+                        <outlet property="mouthImg" destination="4E5-kO-wDK" id="dI5-sD-2Km"/>
                         <outlet property="mustacheButton" destination="4zB-hs-1UT" id="jPN-c9-fYv"/>
-                        <outlet property="mustacheImg" destination="5vf-hd-RX5" id="EzJ-kp-om0"/>
+                        <outlet property="mustacheImg" destination="edO-Ml-WvR" id="n9m-L9-pVe"/>
                         <outlet property="noseButton" destination="Fwb-Pt-9b6" id="xTn-pJ-NpJ"/>
-                        <outlet property="noseImg" destination="pIA-Hw-n17" id="JMf-ki-pWM"/>
+                        <outlet property="noseImg" destination="NFu-5L-4jJ" id="N6b-9r-Ce4"/>
                         <outlet property="shoesButton" destination="si2-CT-doB" id="ArS-H2-Afg"/>
-                        <outlet property="shoesImg" destination="88Q-dy-1c6" id="ZQ6-1W-KBd"/>
+                        <outlet property="shoesImg" destination="HJ5-Bv-gEp" id="tU8-mm-UKr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
