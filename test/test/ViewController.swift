@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
+    // Outlet UIImageView
     @IBOutlet weak var armsImg: UIImageView!
     @IBOutlet weak var earsImg: UIImageView!
     @IBOutlet weak var eyebrowsImg: UIImageView!
@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var mustacheImg: UIImageView!
     @IBOutlet weak var noseImg: UIImageView!
     @IBOutlet weak var shoesImg: UIImageView!
+    
+    // Outlet UIButton
     @IBOutlet weak var armsButton: UIButton!
     @IBOutlet weak var earsButton: UIButton!
     @IBOutlet weak var eyebrowsButton: UIButton!
@@ -32,6 +34,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var noseButton: UIButton!
     @IBOutlet weak var shoesButton: UIButton!
     
+    // Button actions
     @IBAction func armsAction(sender: AnyObject) {
         if armsImg.hidden {
             let image = UIImage(named: "CheckedBox") as UIImage!
@@ -152,6 +155,7 @@ class ViewController: UIViewController {
         }
     }
     
+    // Hide images after loading the view
     override func viewDidLoad() {
         super.viewDidLoad()
         armsImg.hidden = true
@@ -164,7 +168,6 @@ class ViewController: UIViewController {
         mustacheImg.hidden = true
         noseImg.hidden = true
         shoesImg.hidden = true
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
     override func didReceiveMemoryWarning() {
